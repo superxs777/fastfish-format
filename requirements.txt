@@ -1,0 +1,3 @@
+markdown>=3.4.0
+premailer>=3.10.0
+Pillow>=10.0.0

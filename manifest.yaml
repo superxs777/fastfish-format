@@ -1,0 +1,13 @@
+# ClawHub / OpenClaw Skill 清单
+# 用于 openclaw skill publish .
+name: fastfish-format
+version: 0.1.0
+description: 多渠道格式化与美化，公众号与小红书文章排版，18 套预设样式，配图编排指引
+license: MIT
+category: productivity
+tags:
+  - wechat
+  - xiaohongshu
+  - markdown
+  - format
+  - typography

@@ -1,0 +1,43 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fastfish-format"
+version = "0.1.0"
+description = "多渠道格式化与美化：公众号、小红书文章排版、配图编排"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "fastfish"}]
+keywords = ["wechat", "xiaohongshu", "format", "markdown", "typography"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+
+dependencies = [
+    "markdown>=3.4.0",
+    "premailer>=3.10.0",
+    "Pillow>=10.0.0",
+]
+
+[project.optional-dependencies]
+api = ["fastapi>=0.95.0", "uvicorn>=0.22.0"]
+
+[project.urls]
+Repository = "https://github.com/your-org/fastfish-format"
+
+[project.scripts]
+ffformat = "fastfish_format.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["fastfish_format*"]
+
+[tool.setuptools.package-data]
+fastfish_format = ["assets/**/*.css"]
