@@ -1,0 +1,47 @@
+:root {
+  --ff-bg: #ffffff;
+  --ff-text: #1d1d1d;
+  --ff-muted: #555555;
+  --ff-accent: #000000;
+  --ff-border: #d6d6d6;
+}
+
+body {
+  color: var(--ff-text);
+  background: var(--ff-bg);
+  line-height: 1.8;
+  font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+}
+
+h1, h2, h3 {
+  color: #000;
+}
+
+h2 {
+  border-left: 4px solid #000;
+  padding-left: 10px;
+}
+
+p, ul, ol {
+  margin: 12px 0;
+}
+
+blockquote {
+  margin: 12px 0;
+  border-left: 4px solid #000;
+  background: #f5f5f5;
+  padding: 10px 12px;
+  color: var(--ff-muted);
+}
+
+pre {
+  background: #111;
+  color: #eee;
+  border-radius: 8px;
+  padding: 10px 12px;
+}
+
+a {
+  color: var(--ff-accent);
+  text-decoration: underline;
+}

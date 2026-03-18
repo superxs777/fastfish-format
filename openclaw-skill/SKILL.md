@@ -13,7 +13,7 @@ metadata:
 
 # fastfish-format 能力说明
 
-**GitHub**：https://github.com/superxs777/fastfish-format（待发布）
+**GitHub**：https://github.com/superxs777/fastfish-format
 
 本 Skill 需配合 fastfish-format 项目使用。请先安装 fastfish-format，再在 OpenClaw 中启用本 Skill。
 

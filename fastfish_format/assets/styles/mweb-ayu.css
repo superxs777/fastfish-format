@@ -1,0 +1,45 @@
+:root {
+  --ff-bg: #fff7e8;
+  --ff-text: #5d4a36;
+  --ff-muted: #7d6a55;
+  --ff-accent: #e97b3c;
+  --ff-border: #f1dcc2;
+}
+
+body {
+  color: var(--ff-text);
+  background: var(--ff-bg);
+  line-height: 1.9;
+  font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+}
+
+h1, h2 {
+  color: #cb642f;
+}
+
+h2 {
+  border-bottom: 1px solid var(--ff-border);
+  padding-bottom: 6px;
+}
+
+h3 {
+  color: #d6753c;
+}
+
+p, ul, ol {
+  margin: 12px 0;
+}
+
+blockquote {
+  margin: 12px 0;
+  background: #fff1df;
+  border: 1px solid var(--ff-border);
+  border-left: 4px solid var(--ff-accent);
+  border-radius: 8px;
+  color: var(--ff-muted);
+  padding: 10px 12px;
+}
+
+a {
+  color: var(--ff-accent);
+}

@@ -1,0 +1,45 @@
+:root {
+  --ff-bg: #ffffff;
+  --ff-text: #2f3136;
+  --ff-muted: #6f7680;
+  --ff-accent: #2f7dd1;
+  --ff-border: #e8edf2;
+}
+
+body {
+  color: var(--ff-text);
+  background: var(--ff-bg);
+  line-height: 1.95;
+  font-family: Georgia, "PingFang SC", serif;
+}
+
+h1 {
+  color: #222;
+  border-bottom: 2px solid var(--ff-border);
+  padding-bottom: 8px;
+}
+
+h2, h3 {
+  color: #2a3441;
+}
+
+p, ul, ol {
+  margin: 12px 0;
+}
+
+blockquote {
+  margin: 12px 0;
+  border-left: 4px solid var(--ff-accent);
+  background: #f7fbff;
+  color: var(--ff-muted);
+  padding: 10px 12px;
+}
+
+pre, code {
+  background: #f5f7fa;
+  border-radius: 6px;
+}
+
+a {
+  color: var(--ff-accent);
+}

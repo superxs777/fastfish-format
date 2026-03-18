@@ -1,0 +1,45 @@
+:root {
+  --ff-bg: #f7f8fa;
+  --ff-text: #303645;
+  --ff-muted: #646b79;
+  --ff-accent: #5f769b;
+  --ff-border: #dce1ea;
+}
+
+body {
+  color: var(--ff-text);
+  background: var(--ff-bg);
+  line-height: 1.9;
+  font-family: Georgia, "PingFang SC", serif;
+}
+
+h1, h2 {
+  color: #394866;
+}
+
+h2 {
+  border-bottom: 1px solid var(--ff-border);
+  padding-bottom: 6px;
+}
+
+h3 {
+  color: #516a92;
+}
+
+p, ul, ol {
+  margin: 12px 0;
+}
+
+blockquote {
+  margin: 12px 0;
+  background: #eef2f8;
+  border: 1px solid var(--ff-border);
+  border-left: 4px solid var(--ff-accent);
+  border-radius: 8px;
+  color: var(--ff-muted);
+  padding: 10px 12px;
+}
+
+a {
+  color: var(--ff-accent);
+}

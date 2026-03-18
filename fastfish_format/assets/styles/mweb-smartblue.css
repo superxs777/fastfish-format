@@ -1,0 +1,44 @@
+:root {
+  --ff-bg: #f5fbff;
+  --ff-text: #23313d;
+  --ff-muted: #587085;
+  --ff-accent: #1f97d4;
+  --ff-border: #cbe8f6;
+}
+
+body {
+  color: var(--ff-text);
+  background: var(--ff-bg);
+  line-height: 1.88;
+  font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+}
+
+h1, h2 {
+  color: #16648b;
+}
+
+h2 {
+  border-bottom: 1px solid var(--ff-border);
+  padding-bottom: 6px;
+}
+
+h3 {
+  color: #1b83b7;
+}
+
+p, ul, ol {
+  margin: 12px 0;
+}
+
+blockquote {
+  margin: 12px 0;
+  background: #eefdff;
+  border: 1px solid var(--ff-border);
+  border-radius: 8px;
+  padding: 10px 12px;
+  color: var(--ff-muted);
+}
+
+a {
+  color: var(--ff-accent);
+}
